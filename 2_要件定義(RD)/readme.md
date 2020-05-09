@@ -4,6 +4,8 @@ Mình(Dũng Bống) đang là SE onsite cho FJP ở NTTD, mới được 1 thán
 
 #チームメンバ
 *Dũng Bống: Muốn thực hành quy chuẩn phát triển một dự án ở nơi làm việc của anh. Ở đó anh chỉ là một thằng SE quèn, là một cái bánh răng bé tí trong một bộ máy khổng lồ. Tự làm dự án với các anh chị em mình, anh có thể tự nhận mình làm PM, tự tay viết ra những tài liệu mùi mẫn như này, và có thể thực hành những điều đao to búa lớn mới chỉ nghe từ sếp.
+
+
 *Duy Triệu: Hiện đang là PM ASSistant ở Fujitsu, cái tên chức vụ cũng nói nên phần nào nội dung công việc của anh: ngồi cho to ass. Anh có mong muốn học, học nữa, học mãi, học cái gì cũng được(đúp), tham gia dự án với một tâm hồn rộng mở, sẵn sàng tiếp thu bất kì kiến thức nào mới, nguyện vọng được đi lên từ dev chính hiệu chứ không phải PMAss.
 *Tuấn Vũ: Chuyên về Java, đang ngồi tu ở FJP chờ đợi thời cơ đến. Có điều Vũ là người ham học hỏi, ham chơi nữa, anh muốn đi năm lấy cơ hội thay vì há miệng chờ. Đó cũng là lí do anh tham gia dự án, với background mạnh về kĩ thuật, anh hứa hẹn sẽ trở thành một technical expert trong team. Hi vọng anh không vì gái gú mà hứa lèo với anh em.
 *Thành Duy: Một vận động viên điền kinh bán chuyên đã đạt vô số giải chạy do chính anh tổ chức với 1 người tham gia. Anh đang tu luyện thiết kế server cũng trên văn phòng FJP. Lần này anh tham gia với mục đích tìm hiểu thêm về thế giới web front-end đầy màu sắc, đặc biệt là màu hồng.

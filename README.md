@@ -1,6 +1,6 @@
 # 背景
 
-Mình(Dũng Bống) đang là SE onsite cho FJP ở NTTD, mới được 1 tháng :D. Vì đây là một trong những công ty rất lớn của Nhật(kiểu như Viettel ở Việt Nam :v) nên họ có những quy chuẩn làm việc rất chuyên nghiệp. Làm ở đây học được nhiều! Mình định hướng sẽ từ SE lên DM/PM bên này nên nhận thấy nếu không đáp ứng được những tiêu chuẩn của họ thì sẽ ăn hành ngập mồm. Vậy nên mình quyết định tập hợp mấy anh chị em làm dự án riêng để luyện tập cũng như chia sẻ những kiến thức học được trong năm đầu làm 社会人. Định hướng sẽ là học những kiến thức mà mỗi thành viên thấy cần thiết cho bản thân, áp dụng nó cùng làm ra một sản phẩm chung mà cả team hứng thú, và làm việc theo quy trình được quy chuẩn hoá.
+Mình(Dũng Bống) đang là SE onsite cho FJP ở NTTD, mới được 1 tháng :D. Vì đây là một trong những công ty rất lớn của Nhật(kiểu như Viettel ở Viêtt Nam :v) nên họ có những quy chuẩn làm việc rất chuyên nghiệp. Làm ở đây học được nhiều! Mình định hướng sẽ từ SE lên DM/PM bên này nên nhận thấy nếu không đáp ứng được những tiêu chuẩn của họ thì sẽ ăn hành ngập mồm. Vậy nên mình quyết định tập hợp mấy anh chị em làm dự án riêng để luyện tập cũng như chia sẻ những kiến thức học được trong năm đầu làm 社会人. Định hướng sẽ là học những kiến thức mà mỗi thành viên thấy cần thiết cho bản thân, áp dụng nó cùng làm ra một sản phẩm chung mà cả team hứng thú, và làm việc theo quy trình được quy chuẩn hoá.
 
 
 # チームメンバ

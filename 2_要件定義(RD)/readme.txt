@@ -13,4 +13,4 @@ Mình(Dũng Bống) đang là SE onsite cho FJP ở NTTD, mới được 1 thán
 *Đức: Cùng team ngồi tu hành server với Vũ, Duy. Anh là điển hình của "khẩu xà tâm phật", miệng nói sợ không có thời gian tham gia dự án, nhưng vẫn muốn theo dõi cũng anh em, thâm chí còn sẵn sàng thức đêm tìm hiểu về kĩ thuật cho mọi người(khá dị). Anh hiện không tham gia dự án, nhưng có dự định tham gia khi anh thấy có thể. Mọi người vẫn đang kì vọng về anh trở thành một ngọn hải đăng sáng trong biển cả kiến thức mênh mông.
 
 
-->Dựa vào những điểm chung, chúng tôi quyết định sẽ phát triển một e-learning web app cho các doanh nghiệp Nhật Bản và người lao động ở Việt Nam, phát triển dự án theo mô hình waterfall, sẽ dùng những DB, library đang thông dụng trên thị trường. Dự định sẽ làm từ tháng 5 tới tháng 9 cho ra sản phẩm(hay ít nhất một phần của nó :)))
+->Dựa vào những điểm chung, chúng tôi quyết định sẽ phát triển một e-learning web app cho các doanh nghiệp Nhật Bản và người lao động ở Việt Nam, phát triển dự án theo mô hình waterfall, sẽ dùng những DB, library đang thông dụng trên thị trường. Dự định sẽ làm từ tháng 5 tới tháng 9 cho ra sản phẩm(hay ít nhất một phần của nó :))))

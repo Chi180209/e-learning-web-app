@@ -16,3 +16,4 @@ const auth=(req, res, next) => {
 }
 
 module.exports=auth
+// có nhiệm vụ là verify cái jwt và báo lại nếu có lỗi

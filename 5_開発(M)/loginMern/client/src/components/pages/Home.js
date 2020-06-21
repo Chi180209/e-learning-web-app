@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {useContext, useEffect} from 'react';
+import AuthContext from '../../context/authContext/AuthContext'
 import GuestForm from '../guests/GuestForm'
 import GuestCounter from '../guests/GuestCounter'
 import GuestFilter from '../guests/GuestFilter'
 import GuestSearch from '../guests/GuestSearch'
 import Guests from '../guests/Guests'
-import Guest from '../guests/Guest'
 
 const Home = () => {
+    const {getUser} = useContext(AuthContext)
+    useEffect(()=>{
+        getUser()
+    }, [])
     return (
         <div className="app-container">
             <div className="main">

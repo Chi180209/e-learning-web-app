@@ -1,5 +1,6 @@
 import React, {useReducer} from 'react';
 import GuestContext from './guestContext'
+import axios from 'axios'
 import guestReducer from './guestReducer'
 import {
     TOGGLE_FILTER,
@@ -9,7 +10,11 @@ import {
     REMOVE_GUEST,
     UPDATE_GUEST,
     EDIT_GUEST,
-    CLEAR_EDIT
+    CLEAR_EDIT,
+    GET_GUESTS,
+    GUESTS_ERROR,
+    CLEAR_GUESTS,
+    CLEAR_GUEST_ERRORS
 } from '../types'
 
 const GuestState = (props) => {
@@ -17,56 +22,79 @@ const GuestState = (props) => {
         filterGuest: false,
         search:null,
         editAble:null,
-        guests:[
-            {
-                id:1,
-                name: "Trieu Duc Duy",
-                phone: "626 526 468",
-                dietary:'Vegan',
-                isconfirmed:false
-
-            },
-            {
-                id:2,
-                name: "Tran Le Anh",
-                phone: "856 526 468",
-                dietary:'Non-Veg',
-                isconfirmed:true
-
-            },
-            {
-                id:3,
-                name: "Bui Phuong Linh",
-                phone: "626 526 548",
-                dietary:'Pescatarian',
-                isconfirmed:false
-
-            }
-        ]
+        guests:[],
+        errors:null
     }
     const [state, dispatch] = useReducer(guestReducer, initialState)
     
-    const addGuest = (guest) =>{
-        guest.id = Date.now()
-        guest.isconfirmed=false
-        dispatch({
-            type:ADD_GUEST,
-            payload:guest
-        })
+//getGuests
+    const getGuests = async () =>{
+        try {
+            const res = await axios.get('/guest')
+            dispatch({
+                type: GET_GUESTS, 
+                payload: res.data
+            })
+        } catch (err) {
+            dispatch({
+                type: GUESTS_ERROR, 
+                payload: err.response.msg
+            })
+        }
     }
 
-    const removeGuest = (id) =>{
-        dispatch({
-            type: REMOVE_GUEST,
-            payload: id
+    const addGuest = async (guest) =>{
+        const config = {
+            "Content-Type": "application/json"
+        }
+        try {
+            const res = await axios.post ('/guests',guest, config)
+            dispatch({
+                type:ADD_GUEST,
+                payload:res.data
         })
+        } catch (err) {
+            dispatch({
+                type: GUESTS_ERROR, 
+                payload: err.response.msg
+            })
+        } 
+    }
+    const removeGuest = async (id) =>{
+        try {
+            await axios.delete(`/guest/${id}`)
+            dispatch({
+                type: REMOVE_GUEST,
+                payload: id
+            })
+        } catch (err) {
+            dispatch({
+                type: GUESTS_ERROR, 
+                payload: err.response.msg
+            })
+        }
+        
     }
 
-    const updateGuest = (guest) =>{
-        dispatch({
-            type: UPDATE_GUEST,
-            payload: guest
-        })
+    const updateGuest = async (guest) =>{
+        const config = {
+            header:{
+                "Content-Type": "application/json"
+            }
+        }
+        try {
+            const res = await axios.put(`/guests/${guest._id}`,guest, config)
+            dispatch({
+                type: UPDATE_GUEST,
+                payload: res.data
+            })
+        } catch (err) {
+            dispatch({
+                type: GUESTS_ERROR, 
+                payload: err.response.msg
+            })
+        }
+
     }
     const editGuest = (guest) =>{
         dispatch({
@@ -105,6 +133,8 @@ const GuestState = (props) => {
                     filterGuest:state.filterGuest,
                     search:state.search,
                     editAble:state.editAble,
+                    errors: state.errors,
+                    getGuests,
                     addGuest,
                     updateGuest,
                     removeGuest,

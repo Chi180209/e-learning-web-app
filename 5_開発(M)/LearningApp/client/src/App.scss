@@ -1,0 +1,140 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import '~bootstrap/scss/bootstrap';
+
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+a {
+  color: #f4623a;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #d6370c;
+  text-decoration: underline;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.75);
+}
+.text-white {
+  color: #fff;
+}
+.font-weight-bold {
+  font-weight: 700;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.reglable {
+  text-align: right;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #f4623a!important;
+  border-color: #f4623a!important;
+}
+.btn-success {
+  color: #fff;
+  background-color: #f4623a!important;
+  border-color: #f4623a!important;
+}
+
+.col-sm-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.Current_Best-box{
+position: relative;
+display: block;
+overflow: hidden;
+border: 1px solid #f4623a;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: 400px;
+  
+}
+.project-category{
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.5) ;
+}
+.project-name{
+  font-size: 1.2rem;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+.col-sm-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.col-lg-4 {
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+#Current_Best {
+  margin-top: 80px;
+}
+
+#Current_Best .container-fluid, #Current_Best .container-sm, #Current_Best .container-md, #Current_Best .container-lg, #Current_Best .container-xl {
+  max-width: 1920px;
+}
+#Current_Best .container-fluid .Current_Best-box, #Current_Best .container-sm .Current_Best-box, #Current_Best .container-md .Current_Best-box, #Current_Best .container-lg .Current_Best-box, #Current_Best .container-xl .Current_Best-box {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border: 1px solid #f4623a;
+}
+#Current_Best .container-fluid .Current_Best-box .Current_Best-box-caption, #Current_Best .container-sm .Current_Best-box .Current_Best-box-caption, #Current_Best .container-md .Current_Best-box .Current_Best-box-caption, #Current_Best .container-lg .Current_Best-box .Current_Best-box-caption, #Current_Best .container-xl .Current_Best-box .Current_Best-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(244, 98, 58, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+#Current_Best .container-fluid .Current_Best-box .Current_Best-box-caption .project-category, #Current_Best .container-sm .Current_Best-box .Current_Best-box-caption .project-category, #Current_Best .container-md .Current_Best-box .Current_Best-box-caption .project-category, #Current_Best .container-lg .Current_Best-box .Current_Best-box-caption .project-category, #Current_Best .container-xl .Current_Best-box .Current_Best-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#Current_Best .container-fluid .Current_Best-box .Current_Best-box-caption .project-name, #Current_Best .container-sm .Current_Best-box .Current_Best-box-caption .project-name, #Current_Best .container-md .Current_Best-box .Current_Best-box-caption .project-name, #Current_Best .container-lg .Current_Best-box .Current_Best-box-caption .project-name, #Current_Best .container-xl .Current_Best-box .Current_Best-box-caption .project-name {
+  font-size: 1.2rem;
+}
+#Current_Best .container-fluid .Current_Best-box:hover .Current_Best-box-caption, #Current_Best .container-sm .Current_Best-box:hover .Current_Best-box-caption, #Current_Best .container-md .Current_Best-box:hover .Current_Best-box-caption, #Current_Best .container-lg .Current_Best-box:hover .Current_Best-box-caption, #Current_Best .container-xl .Current_Best-box:hover .Current_Best-box-caption {
+  opacity: 1;
+}

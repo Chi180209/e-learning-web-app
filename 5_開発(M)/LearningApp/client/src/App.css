@@ -1,2 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/**************Navbar ******************/
+.navbar {
+    display: flex;
+    z-index: 1;
+    color:var(--light-color);
+  }
 
+/**************Navbar以上******************/

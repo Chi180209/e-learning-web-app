@@ -19,7 +19,11 @@ Tạo branch theo task trên github, clone repo về máy local, làm việc c�
 4. Work, work, work from home... Happy coding
 5. Sau khi hoàn thành task, add tất cả thay đổi đó vào commit, và push lên branch đó trên github
 > git add .
+
+
 > git commit -m "comment something here, không để trống"
+
+
 > git push
 6. Lên github tạo pull request
 7. Đợi merge, nếu có conflict thì sửa

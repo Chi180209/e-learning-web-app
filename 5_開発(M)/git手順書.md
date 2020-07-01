@@ -27,3 +27,4 @@ Tạo branch theo task trên github, clone repo về máy local, làm việc c�
 > git push
 6. Lên github tạo pull request
 7. Đợi merge, nếu có conflict thì sửa
+8. Sau khi được merge, nếu thấy không cần thiết thì nên xóa branch, từ lần làm việc tới sẽ tạo branch mới

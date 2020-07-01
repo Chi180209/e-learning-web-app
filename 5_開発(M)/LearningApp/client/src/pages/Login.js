@@ -39,7 +39,7 @@ const Login = (props) => {
                                 </div>
                                 <p className="text-white-75 font-weight-light mb-2">
                                     ※ 登録済みではない方は{" "}
-                                    <a> <Link to='/register'>登録</Link></a>下さい
+                                    <Link to='./register'>登録</Link>下さい
                                 </p>
                                 <div className="btn col-3 btn-primary btn-xl js-scroll-trigger mr-3">
                                     ログイン

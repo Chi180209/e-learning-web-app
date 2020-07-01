@@ -77,7 +77,7 @@ const Register = (props) => {
                         <div>
                           <p className="text-white-75 font-weight-light mb-2">
                             ※ 登録済みの方は{" "}
-                            <a> <Link to='/login'>ログイン</Link></a>下さい
+                            <Link to='./login'>ログイン</Link>下さい
                           </p>
                           <div className="btn col-3 btn-primary btn-xl js-scroll-trigger mr-3"
                             href="#search">

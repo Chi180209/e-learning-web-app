@@ -48,3 +48,10 @@ header.masthead {
   color: #f8f9fa;
 }
 
+/**************Navbar ******************/
+.navbar {
+  display: flex;
+  z-index: 1;
+}
+/**************Navbar以上******************/
+

@@ -15,8 +15,8 @@ const Background = () => {
           <div className="col-lg-8 align-self-baseline">
             <p className="text-white-75 font-weight-light mb-5">将来、日本で就職する予定がある方、お仕事のため専門用語を学びたい方に向けるeラーニング</p>
               
-            <Link to="../Login" className="btn col-3 btn-xl btn-danger"> ログイン </Link>
-            <Link to="../Register" className="btn col-3 btn-xl btn-warning"> 登録 </Link>
+            <Link to="../Login"><button className="btn-xl col-3 btn-danger"> ログイン </button></Link>
+            <Link to="../Register"><button className="btn-xl col-3 btn-warning"> 登録 </button></Link>
 
           </div>
         

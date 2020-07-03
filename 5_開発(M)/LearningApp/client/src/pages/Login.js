@@ -41,9 +41,9 @@ const Login = (props) => {
                                     ※ 登録済みではない方は{" "}
                                     <Link to='./register'>登録</Link>下さい
                                 </p>
-                                <div className="btn col-3 btn-primary btn-xl js-scroll-trigger mr-3">
+                                <button className="col-3 btn-primary btn-xl js-scroll-trigger mr-3">
                                     ログイン
-                                </div>  
+                                </button>  
                         </form>
                     </div>
                 </div>

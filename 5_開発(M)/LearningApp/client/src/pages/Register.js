@@ -79,10 +79,10 @@ const Register = (props) => {
                             ※ 登録済みの方は{" "}
                             <Link to='./login'>ログイン</Link>下さい
                           </p>
-                          <div className="btn col-3 btn-primary btn-xl js-scroll-trigger mr-3"
+                          <button className="col-3 btn-primary btn-xl js-scroll-trigger mr-3"
                             href="#search">
                             登録
-                          </div>
+                          </button>
                           <div>
                             <link rel="icon" type="image/x-icon" href='../Images/Logo/favicon.ico' />
                           </div>

@@ -24,11 +24,17 @@ export default class Navigation extends React.Component{
         </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-      <Form inline className="ml-auto" id="searchnav">
-          <FormControl type="searchnavbar" placeholder="Type to search..." className="mr-sm-2 rounded-pill" />
-          <Button href="#search" variant="outline-primary"><i className="fas fa-search"></i></Button>
-        </Form>
-        <Nav className="ml-auto " id="navlink">
+      <Form outline className="searchbox">
+          <FormControl type="text" placeholder="Type to search..." className="search-txt" />
+          <Button href="#search" className="search-btn"><i className="fas fa-search"></i></Button>
+      </Form>
+
+      <div outline className="searchbox">
+              <input type="text" placeholder="Type to search..." className="search-txt" />
+              <Button href="#search" className="search-btn"><i className="fas fa-search"></i></Button>
+      </div>
+      
+        <Nav className="ml-auto" id="navlinks">
           <NavItem><Nav.Link href="/">Home</Nav.Link></NavItem>
           <NavItem>
             <NavDropdown title="List" id="basic-nav-dropdown">
@@ -71,7 +77,36 @@ export default class Navigation extends React.Component{
 }
 
 const Navigationstyled = styled.div`
-.nav-item:hover{
-    background: var(--red);
+  .nav-item:hover{
+      background: var(--red);
+    }
+
+  .searchbox{
+    border-radius: 50px 0 0 50px ;
+    padding: 1px;
+    background: #fff;
+  }
+  .search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: right;
+  padding: 0;
+  color: #000;
+  font-size: 15px;
+  line-height: 35px;
+  width: 260px;
+  padding: 0 20px
+  }
+
+  .search-btn{
+  float: left;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 `;

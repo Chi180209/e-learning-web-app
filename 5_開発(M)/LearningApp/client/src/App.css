@@ -55,3 +55,219 @@ header.masthead {
 }
 /**************Navbar以上******************/
 
+/*
+
+  セクション: ワードリストの作成
+  目的:ワードリストの作成のページのスタイルを決める
+
+  作成者: Duy Trieu
+  更新日: 2020/07/07
+
+*/
+
+::placeholder {
+  color: rgb(180, 180, 180);
+  opacity: 1; /* Firefox */
+}
+
+
+.CreateWordList-container {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "MS PGothic", Arial;
+}
+.wordlist-creation-header{
+  width: 100%;
+  height: 100px;
+  display:flex;
+  background-color: white;
+  border: 1px solid rgb(238, 236, 236);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left text{
+  width: 300px;
+}
+.Left-text-container{
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+
+}
+.Enter-list-name input{
+  width: 100%;
+  margin-bottom: 5px;
+  border: 0;
+  border-bottom: 1px solid gray;
+  outline: 0;
+}
+.Enter-list-explaination input{
+  width: 100%;
+  margin-bottom: 5px;
+  border: 0;
+  border-bottom: 1px solid gray;
+  outline: 0;
+}
+input[type="text"]{
+  border: 0;
+  border-bottom: 1px solid gray;
+  outline: 0;
+}
+input[type="text"]:focus{
+  border-bottom: 2px solid yellow;
+}
+.header-right-button{
+  margin-right: 100px;
+
+}
+.wordlist-creation-body{
+  width: 100%;
+  display:flex;
+  background-color:#f8f8f8;
+  border-color: black;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.word-card{
+  width: 90%;
+  height: 160px;
+  background-color: white;
+  margin: 10px 2px;
+  display: flex;
+  flex-direction: column;
+}
+.word-card-buttons{
+  background-color:#ffffff;
+  /* flex: 1; */
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(232, 232, 232);
+}
+.word-card-buttons:hover{
+  cursor: grab;
+}
+.word-card-number{
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.word-card-number > div{
+  margin-left: 10px;
+}
+.word-card-add-button{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.word-card-add-button > div{
+  height: 32px;
+  width: 32px;
+}
+.word-card-other-button{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.word-card-other-button > div{
+  height: 32px;
+  width: 32px;
+  margin-right: 10px;
+}
+.word-card-info{
+  background-color:#ffffff;
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(232, 232, 232);
+}
+.word-card-info>div>div{
+  margin-left: 10px;
+}
+.Enter-new-word{
+  flex: 3;
+  display: flex;
+  align-items: flex-end;
+}
+.Enter-new-word input{
+  width: 100%;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:7px
+}
+.Enter-hiragana{
+  flex: 3;
+  display: flex;
+  align-items: flex-end;
+}
+.Enter-hiragana input{
+  width: 100%;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:7px
+}
+.Enter-Vietnamese{
+  flex: 4;
+  display: flex;
+  align-items: flex-end;
+}
+.Enter-Vietnamese input{
+  width: 100%;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:7px
+}
+.word-card-example{
+  background-color:#ffffff;
+  flex: 3;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.word-card-example input{
+  width: 100%;
+  margin-left: 10px;
+  margin-right:10px;
+  margin-bottom: 7px;
+}
+.fa-plus-circle{
+  color: rgb(228, 228, 228);
+}
+.fa-plus-circle:hover{
+  color: rgb(255, 217, 0);
+}
+.fa-arrow-down:hover {
+  color: rgb(255, 217, 0);
+}
+.fa-trash:hover {
+  color: rgb(255, 217, 0);
+}
+.fa-arrow-up:hover{
+  color: rgb(255, 217, 0);
+}
+
+button{
+  border:hidden;
+  background-color: white;
+  cursor: pointer;
+}
+button:focus{
+  border:hidden;
+  outline: none !important;
+  background-color: white;
+}

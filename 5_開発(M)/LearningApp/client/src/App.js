@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Home from './pages/Home-User/Home'
+
 import FooterPage from './components/Footer_contact'
 import CenterText from './components/Center_text';
 import List from './components/List';
